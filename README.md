@@ -48,6 +48,17 @@ Larger models may still run by using system RAM, but performance can drop signif
 
 ## Installation
 
+
+### SIMPLE
+Download, extract the archive and Run start.bat.
+The Batch file should check for and install pythin and venv for you.
+
+If you have Comfy and Ollama installed already you should only need to download the correct models.
+The guide in app will link you to all you need, just click Help.
+
+
+## ADVANCED
+
 ### 1. Install Python
 
 Install Python 3.10 or newer.
