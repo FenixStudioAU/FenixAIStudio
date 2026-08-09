@@ -3,10 +3,6 @@ AI System for Music, Music Videos and Coding.
 
 
 
-# Fenix AI Studio
-
-**Fenix AI Studio** is a local AI workspace designed to make running and working with local LLMs easier without needing to live in a terminal.
-
 It connects to **Ollama** and provides a cleaner interface for chatting with models, coding, testing outputs and running AI-assisted tasks locally on your own hardware.
 
 This is an early **v0.1 release**, so expect a few rough edges.
