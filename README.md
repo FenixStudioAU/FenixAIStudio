@@ -1,3 +1,86 @@
+# Fenix AI Studio
+
+Local studio for music, images, music videos, short films, and chat. Runs on **your** PC with ComfyUI and Ollama.
+
+**Version:** Fenix AI Studio 0.3 Public
+
+
+                    GNU AFFERO GENERAL PUBLIC LICENSE
+                  
+
+## What you need
+
+**Recommended**
+
+- Windows 10 or 11  
+- NVIDIA GPU with about 12 GB VRAM or more  
+- 32 GB RAM  
+- Plenty of disk for AI models (the app itself is small)  
+- Python 3.10 or newer (add it to PATH when installing)  
+- ComfyUI and Ollama installed separately  
+
+**Smaller GPUs (about 8 GB)**  
+
+Use **Settings → Optimise for low VRAM**, Klein **4B**, smaller chat models, shorter music, and draft video first.
+
+---
+
+## Install
+
+1. Install Python 3.10+ (tick *Add to PATH*).
+2. Install ComfyUI and the models listed under **Help** in the app.
+3. Install Ollama and pull a small model (for example `ollama pull qwen2.5:3b`).
+4. Unzip this folder and run **`START.bat`**.
+5. First launch sets up Python packages (a few minutes). After that it starts faster.
+6. Open the address shown (usually **http://127.0.0.1:7865/**).
+
+Full model list and folder locations: **Help** in the app (or `frontend/help.html`).
+
+### Optional ACE style pack
+
+If you downloaded the separate **Fenix AI Studio ACE style LoRAs** zip (Country, Pop, Rap, Rock), copy those `.safetensors` files into your ComfyUI install:
+
+```text
+ComfyUI/models/loras/ace/
+```
+
+Then in Fenix: Music → Create → **Refresh** and pick a style.  
+The zip includes a short README.
+
+---
+
+## Quick use
+
+1. Start ComfyUI, then Ollama, then **START.bat**.
+2. Make music, train a style, or open a video / film project.
+3. Add character photos if you want consistent faces — use their names in image prompts.
+4. Use **EMERGENCY STOP** in the top bar if a job locks the GPU.
+
+Keep the START window open while you work. Closing it stops the studio.
+
+---
+
+## Notes
+
+- First run needs internet so Python can install packages.
+- Long video jobs can take many minutes — wait rather than spamming the same job.
+- Third-party tools (ComfyUI, Ollama, models, etc.) keep their own licences.
+- Do not commit `venv/`, `settings/user_settings.json`, logs, or personal projects.
+
+## Contributing
+
+Fixes and useful improvements are welcome.
+
+## Version
+
+**Fenix AI Studio — PERSONAL EDITION**
+Not for distribution.
+
+
+
+
+
+
 # FenixAIStudio
 AI System for Music, Music Videos and Coding. 
 
